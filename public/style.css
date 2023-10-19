@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Card{
+  width: 300px;
+  border: 1px solid lightgray;
+  border-radius: 16px;
+}
+.Card-img{
+  width: 100%;
+ border-top-left-radius: 16px;
+ border-top-right-radius: 16px;
+}
+p{
+  margin: 0%;
+  padding: 0%;
+}
+.innercard{
+  display: flex;
+  flex-direction: column;
+  height: 130px;
+  gap: 5px;
+  margin: 7px;
+  flex-wrap: wrap;
+  
+}
+.Card p{
+  font-size: large;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgb(49, 48, 48);
+}
+.Card span{
+  font-weight: 400;
+  margin-left: 3px;
+  font-size: 17px;
+  color: rgb(103, 102, 102);
+}
+.Card button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: blue;
+  margin: 10px 100px;
+  font-size: 15px;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  
+}
+
+hr{
+  border:1px solid lightgray;
+}
+.Container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin: 10px;
+}
+.Header{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+  align-items: center;
+  position: sticky;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgb(155, 155, 155);
+}
+.Privacy{
+  display: flex;
+  gap: 13px;
+}
+.Privacy a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: medium;
+  word-spacing: 0.1px;
+  letter-spacing: 1px;
+}
+.Input{
+  margin-right: 70px;
+}
+.finder{
+  font-size: 17px;
+  padding: 10px 12px;
+  font-weight: 400;
+  border-radius: 60px;
+  width: 300px;
+  border: 1px solid rgb(234, 232, 232);
+  box-shadow: 0px 0px 2px rgb(180, 179, 179);
+}
+.search{
+  background-color: rgb(241, 55, 55);
+  border-radius: 50%;
+  border: none;
+  padding: 5px 8px;
+  padding-top: 7px;
+  font-weight: 600;
+  color: white;
+  margin-left: -35px;
+  cursor: pointer;
+}
+.login{
+  display: flex;
+  gap: 5px;
+}
+.login button{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 60px;
+  box-shadow: 0px 0px 3px gray;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+.Menu{
+  margin-top: 25px;
+  border: 1px solid lightgray;
+  margin: 10px 20px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 5px gray;
+  display: flex;
+  flex-direction: column;
+}
+.innerMenu{
+  display: flex;
+  gap: 15px;
+  height: 420px;
+  padding: 10px;
+}
+.Menu-img{
+ border-radius: 16px;
+ width: 500px;
+}
+.ingredients{
+  padding: 10px;
+}
+table{
+  border: 1px solid lightgray;
+  width: 500px;
+}
+td{
+  font-size: large;
+  font-weight: 500;
+  padding: 5px;
+}
+th{
+  padding: 5px;
+}
+tr{
+  font-family: cursive;
+}
+Menu-Dish{
+  font-size: medium;
+  color: lightgray;
+}
+.para{
+  font-weight: 700;
+  font-size: larger;
+}
+.int{
+  font-family: monospace;
+  font-size: 15;
+  font-weight: 400;
+}
+
+.Menu-name{
+  font-size: large;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+}
+.Menu-Dish{
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: rgb(120, 118, 118);
+  margin-left: 5px;
+}
+
+.Main{
+  font-size: 30px;
+  color: green;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.youtube{
+  font-size: large;
+  font-weight: 500;
+  color: red;
+}
+.back{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 3px 5px;
+  padding-top: 4px;
+  position: absolute;
+  top: 25px;
+  left: 40px;
+  cursor: pointer;
+
+}
+.Back-div{
+  position: relative;
+}
+.Heart{
+  color: white;
+  position: absolute;
+  top: 32px;
+  left: 490px;
+  font-weight: 600;
+}
+.Duration{
+  background-color: red;
+  margin-left: 20px;
+}
+.cook{
+  border-radius: 60%;
+  color: red;
+  margin: 0%;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+}
